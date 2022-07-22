@@ -1,5 +1,4 @@
 import React from "react";
-import logo from "./logo.svg";
 import "./App.css";
 import About from "./components/about";
 import Contact from "./components/contact";
@@ -14,11 +13,9 @@ function App() {
     <Router>
       <Navbar />
       <Routes>
-        {/* <Route path="/" element={<Home/>}/> */}
-
         <Route path="/contact" element={<Contact />} />
         <Route path="/projects" element={<Projects />} />
-        <Route path="/about" element={<About />} />
+        <Route path="/" element={<About />} />
       </Routes>
     </Router>
   );

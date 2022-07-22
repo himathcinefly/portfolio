@@ -1,19 +1,41 @@
 import React from "react";
 import { Link } from "react-router-dom";
-import "./navbar.css";
+import "./navbar.scss";
+import { NavLink } from "react-router-dom";
+
+const isActiveStyle = {};
+
 const navbar = () => {
   return (
     <div className="topnav">
       <a>
-        <Link to="/about">About</Link>
+        <NavLink
+          style={({ isActive }) => (isActive ? isActiveStyle : {})}
+          to="/"
+        >
+          {" "}
+          About{" "}
+        </NavLink>
       </a>
 
       <a>
-        <Link to="/projects">Projects</Link>
+        <NavLink
+          style={({ isActive }) => (isActive ? isActiveStyle : {})}
+          to="/projects"
+        >
+          {" "}
+          Projects{" "}
+        </NavLink>
       </a>
 
       <a>
-        <Link to="/contact">Contact</Link>
+        <NavLink
+          style={({ isActive }) => (isActive ? isActiveStyle : {})}
+          to="/contact"
+        >
+          {" "}
+          Contact{" "}
+        </NavLink>
       </a>
     </div>
   );
