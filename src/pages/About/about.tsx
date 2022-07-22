@@ -1,5 +1,5 @@
 // import about.sass from the src folder
-import "./about.css";
+import "./about.scss";
 import Type from "./Type";
 export default function About() {
   return (
