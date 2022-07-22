@@ -1,7 +1,6 @@
 // import about.sass from the src folder
 import "./about.css";
 import Type from "./Type";
-
 export default function About() {
   return (
     <section id="about">

@@ -1,10 +1,10 @@
 import React from "react";
 import "./App.css";
-import About from "./components/about";
-import Contact from "./components/contact";
-import Projects from "./components/projects";
+import About from "./pages/About/about";
+import Contact from "./pages/Contact/contact";
+import Projects from "./pages/Projects/projects";
 
-import Navbar from "./components/navbar";
+import Navbar from "./components/Navbar/navbar";
 
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 

@@ -1,0 +1,85 @@
+/* Style inputs with type="text", select elements and textareas */
+/* Style the submit button with a specific background color etc */
+/* When moving the mouse over the submit button, add a darker green color */
+/* Add a background color and some padding around the form */
+input[type="text"] {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 20px 10px;
+	border: 1px solid rgb(238, 232, 232);
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	width: 90%;
+	background-color: rgb(235, 235, 235);
+	line-height: 25px;
+}
+select {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 20px 10px;
+	border: 1px solid rgb(238, 232, 232);
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	width: 90%;
+	background-color: rgb(235, 235, 235);
+	line-height: 25px;
+}
+textarea {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	width: 100%;
+	height: 100%;
+	padding: 20px 10px;
+	border: 1px solid rgb(238, 232, 232);
+	box-sizing: border-box;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	resize: vertical;
+	width: 90%;
+	background-color: rgb(235, 235, 235);
+	line-height: 25px;
+}
+input[type="submit"] {
+	background-color: rgb(33, 107, 124);
+	color: white;
+	padding: 12px 20px;
+	border: none;
+	cursor: pointer;
+	float: right;
+	margin-bottom: 16px;
+	&:hover {
+		background-color: #158ef1;
+	}
+}
+input[type="email"] {
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	color: rgb(0, 0, 0);
+	padding: 12px;
+	width: 85%;
+	margin-top: 6px;
+	margin-bottom: 16px;
+	border: transparent;
+	cursor: pointer;
+	background-color: rgb(235, 235, 235);
+}
+.contactcontainer {
+	background-color: #ffffff;
+	box-sizing: border-box;
+	font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+	padding: 20px;
+	padding-bottom: 60px;
+	width: 50%;
+	border-radius: 5px;
+	margin: 0 auto;
+	margin-bottom: 16px;
+}
+h1 {
+	font-size: 500%;
+	font-weight: bold;
+	margin-bottom: 16px;
+}
